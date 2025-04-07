@@ -4,12 +4,14 @@
 
 // Comment out the groups to control output
 
-// Main lightswitches
-#box(image("svg/vr_panorama.svg"), height: 12pt, clip: true, baseline: 20%) Cave\
-#box(image("svg/groups.svg"), height: 12pt, clip: true, baseline: 20%) Office\
-#fa-handshake-simple() Lounge\
+#align(center, [
+  // Main lightswitches
+  #box(image("svg/vr_panorama.svg"), height: 12pt, clip: true, baseline: 20%) Cave\
+  #box(image("svg/groups.svg"), height: 12pt, clip: true, baseline: 20%) Office\
+  #fa-handshake-simple() Lounge\
 
-// Cavern switches
-#box(image("svg/panorama.svg"), height: 12pt, clip: true, baseline: 20%) Center\
-#box(image("svg/panorama.svg"), height: 12pt, clip: true, baseline: 20%) Left\
-#box(image("svg/panorama.svg"), height: 12pt, clip: true, baseline: 20%) Right\
+  // Cavern switches
+  #box(image("svg/panorama.svg"), height: 12pt, clip: true, baseline: 20%) Center\
+  #box(image("svg/panorama.svg"), height: 12pt, clip: true, baseline: 20%) Left\
+  #box(image("svg/panorama.svg"), height: 12pt, clip: true, baseline: 20%) Right\
+])
